@@ -16,7 +16,7 @@ body {
     /* justify-content: flex-start;  There is no difference between Flex end and End Property  */
     /* justify-content: space-around; */
     /* justify-content: space-between; */
-    justify-content: space-evenly;
+    /* justify-content: space-evenly;  */
  }
 
 .items {

@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    height: 400px;
+    background: #f4f4f4;
+    flex-direction: row; /* column */
+    /* flex-wrap: wrap ; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+    flex-wrap: ;
+    justify-content: space-between;
+
+    /* In Column the main axis is align-items and Cross axis Justify-content */
+    /* align-items: start; continues the same property Below */
+
+
+
+    /* Cross in row direction */
+    /* align-items: start; That is the default one */
+    /* align-items: center; Used to make a items center in Cross axis by row  */
+    /* align-items: end; used to align items in the end of the flex container */
+    /* align-items: flex-start ; */
+    /* align-items: flex-end; */
+    /* justify-content: center; =>  Main Axis in Row Justify Content */
+}
+
+.items {
+    width: 100px;
+    height: 100px;
+    background-color: #254ef2;
+    color: #fff;
+    margin: 20px;
+
+    /* The easiest way to center a flex container or flex items inside container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ======== align Self ============ */
+
+.items:nth-of-type(1) {
+    /* align-self: start ; */
+    order:5 ;
+}
+
+.items:nth-of-type(2) {
+    order: 3;
+    /* align-self: center ; */
+}
+
+.items:nth-of-type() {
+    /* align-self: end ; */
+}
+
+.items:nth-of-type() {
+    /* align-self: end ; */
+}
+
+.items:nth-of-type() {
+    /* align-self: end ; */
+}
