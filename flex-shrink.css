@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.items {
+    flex-basis: 500px;
+    height: 100px;
+    margin: 20px;
+    background-color: #254fe2;
+    color: #fff;
+}
+
+.items:nth-of-type(1) {
+    flex-shrink: 1;
+}
+
+.items:nth-of-type(2) {
+    flex-shrink: 3;
+}
+
+.items:nth-of-type(3) {
+    flex-shrink: 2;
+}
+
+.items:nth-of-type(4) {
+    flex-shrink: 1;
+}
+
+.items:nth-of-type(5) {
+    flex-shrink: 5;
+}
